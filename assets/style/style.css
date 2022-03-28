@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Calibri;
+}
+
+body{
+    background-color: rgb(90, 93, 95);
+}
+
+h1{
+    text-align: center;
+    text-decoration: wavy;
+    color:white;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    height: 20vh;
+}
+#result-text{
+    text-align: right;
+    color: bisque;
+    /* padding: 5px 15px 5px 20px; */
+    font-size: 25px;
+}
+.calculations{
+    text-align: right;
+    color: bisque;
+    padding: 5px 15px 5px 20px;
+    font-size: 30px;
+}
+
+.operators_special{
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: repeat(2,1fr) ;
+    margin-top: 5vh;
+    height: 15vh;
+    width: 95%;
+    background-color: rgb(80, 83, 85);
+    margin-left: 2.5%;
+}
+.operators_special button{
+    background-color: rgb(60,200,65);
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 3px;
+}
+
+
+
+.bar-bottom{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 96%;
+    height: 50vh;
+    /* background-color: blue; */
+}
+
+.numbers{
+    width: 75%;
+    background-color: rgb(218, 209, 209);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.numbers button{
+    font-size: 30px;
+    color:white;
+    background-color: rgb(60, 63, 65);
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.operators{
+    width: 25%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.operators button{
+    font-size: 30px;
+    color:white;
+    background-color: rgb(60, 63, 115);
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+#decimal, #equal{
+    color:white;
+    background-color: rgb(60, 63, 115);
+}
+
+
+
+
+
+
+
+
+
+
+
+
